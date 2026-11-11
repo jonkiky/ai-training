@@ -1,0 +1,13 @@
+[project]
+name = "01-life-as-an-ai-engineer"
+version = "0.1.0"
+description = "Session 1: setup, version control, your first LLM API call, and prompt engineering patterns"
+readme = "README.md"
+requires-python = ">=3.12,<3.15"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "jupyter>=1.1.1",
+    "openai>=1.59.7",
+    "pydantic>=2.9",
+    "python-dotenv>=1.0.1",
+]

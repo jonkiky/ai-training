@@ -1,0 +1,19 @@
+---
+description: Follow harness-agnostic AGENTS.md instructions
+globs:
+  - "**/*"
+alwaysApply: true
+---
+
+# Cursor Adapter
+
+The canonical instructions for this repository are defined in `AGENTS.md`.
+
+When working on a file:
+
+1. Follow the root `AGENTS.md`.
+2. Follow any nested `AGENTS.md` files from the repository root down to the file being edited.
+3. Apply instructions from broadest to most specific.
+4. If instructions conflict, the nearest `AGENTS.md` wins.
+
+Do not duplicate the full instruction set here. This file is only an adapter that points Cursor at `AGENTS.md`.

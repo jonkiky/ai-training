@@ -1,0 +1,9 @@
+[project]
+name = "sentiment-analysis-api"
+version = "0.1.0"
+description = "FastAPI backend for sentiment analysis"
+requires-python = ">=3.12,<3.15"
+dependencies = [
+    "fastapi>=0.162.0",
+    "uvicorn>=0.54.0",
+]
